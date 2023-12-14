@@ -1,12 +1,27 @@
 body {
-  background-color: #F5F7F8;
+  background-color: #F5F5F5;
 }
 
 header {
-  text-align: center;
-  margin: 50px;
+  color: #2B2A4C;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphe_banniere {
+  margin-left: 20px;
+}
+.paragraphe_banniere h1 {
+  border-bottom: solid;
+  border-color: #2B2A4C;
+}
+.paragraphe_banniere p {
+  margin-top: -5px;
 }
 
 #collection_conteneur {
@@ -16,17 +31,28 @@ header {
 }
 
 .div_items {
-  background-color: grey;
+  color: #F0ECE5;
+  background: #2B2A4C;
   padding: 20px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  border-radius: 20px;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 15px 15px 0px 0px;
+  transition: transform 0.3s ease;
+}
+.div_items:hover {
+  transform: scale(1.05);
 }
 .div_items h1 {
   margin-bottom: 10px;
   font-size: 16px;
   text-transform: uppercase;
+}
+.div_items img {
+  max-width: 300px;
+  width: 100%;
+}
+.div_items p {
+  color: #B6BBC4;
 }/*# sourceMappingURL=style.css.map */
