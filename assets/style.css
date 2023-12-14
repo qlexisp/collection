@@ -1,14 +1,14 @@
 body {
-  background-color: #F5F5F5;
+  background-color: #161A30;
+  display: grid;
 }
 
 header {
-  color: #2B2A4C;
+  color: #F0ECE5;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   padding: 20px;
   margin-bottom: 20px;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -18,10 +18,14 @@ header {
 }
 .paragraphe_banniere h1 {
   border-bottom: solid;
-  border-color: #2B2A4C;
+  border-color: #F0ECE5;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 5px;
 }
 .paragraphe_banniere p {
   margin-top: -5px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 5px;
 }
 
 #collection_conteneur {
@@ -30,9 +34,20 @@ header {
   gap: 20px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  #collection_conteneur {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+@media screen and (max-width: 480px) {
+  #collection_conteneur {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .div_items {
   color: #F0ECE5;
-  background: #2B2A4C;
+  background: #31304D;
   padding: 20px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -40,6 +55,7 @@ header {
   text-transform: uppercase;
   border-radius: 15px 15px 0px 0px;
   transition: transform 0.3s ease;
+  box-shadow: 3px 3px 8px #161A30;
 }
 .div_items:hover {
   transform: scale(1.05);

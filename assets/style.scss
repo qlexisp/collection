@@ -1,34 +1,49 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #161A30;
+    display: grid;
 }
 header {
-    color: #2B2A4C;
+    color: #F0ECE5;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     padding: 20px;
     margin-bottom: 20px;
-    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.paragraphe_banniere {
+.paragraphe_banniere { // Design du paragrape de la bannière
  margin-left: 20px;
     h1 {
         border-bottom: solid;
-        border-color: #2B2A4C;
+        border-color: #F0ECE5;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 5px;
     }
     p {
         margin-top: -5px;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 5px;
     }
 }
-#collection_conteneur {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+#collection_conteneur { // Style du conteneur de ma collection (grille)
+    display: grid; // Grille
+    grid-template-columns: repeat(5, 1fr); // 5 éléments
+    gap: 20px; // Espace entre les éléments de la grille
   }
-  .div_items {
+  @media screen and (min-width: 480px) and (max-width: 1024px) {
+    #collection_conteneur {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); // Choisir une largeur fixe minimale, par exemple 200px
+    }
+}
+@media screen and (max-width: 480px) {
+    #collection_conteneur {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+.div_items { // Design des box de la grille
     color: #F0ECE5;
-    background: #2B2A4C;
+    background: #31304D;
     padding: 20px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -36,16 +51,17 @@ header {
     text-transform: uppercase;
     border-radius: 15px 15px 0px 0px;
     transition: transform 0.3s ease;
-&:hover 
+    box-shadow: 3px 3px 8px #161A30;
+    &:hover // Au passage du curseur
       {
     transform: scale(1.05); 
 }
-  h1 {
+  h1 { // Pour les h1 des box
     margin-bottom: 10px;
     font-size: 16px;
     text-transform: uppercase;
   }
-  img {
+  img { // Pour les images de la box
     max-width: 300px;
     width: 100%;
     }
