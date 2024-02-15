@@ -1,6 +1,6 @@
 # Projet de Collection d'Albums Hip Hop 🎤🎧
 
-![Capture d'écran du projet Collection](https://i.ibb.co/hHC39Ds/screencapture-qlexisp-github-io-collection-2024-02-15-21-07-41.png)
+![Capture d'écran du projet Collection](https://i.ibb.co/hHC39Ds/screencapture-qlexisp-github-io-collection-2024-02-15-21-07-41.png){:width="50%"}
 
 ## Introduction 🚀
 
