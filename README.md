@@ -9,7 +9,7 @@ Ce projet a été développé dans le cadre de ma formation en tant que junior d
 - Les bases de Javascript
 - Le DOM
 
-L'objectif est de créer une collection d'items. Ce projet sera divisé en deux parties.
+L'objectif est de créer une collection d'items.
 
 ## Contexte 🌐
 
