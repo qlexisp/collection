@@ -1,5 +1,7 @@
 # Projet de Collection d'Albums Hip Hop 🎤🎧
 
+![Capture d'écran du projet Collection](https://i.ibb.co/hHC39Ds/screencapture-qlexisp-github-io-collection-2024-02-15-21-07-41.png)
+
 ## Introduction 🚀
 
 Ce projet a été développé dans le cadre de ma formation en tant que junior developer chez BeCode. Il visait à mettre en applications nos connaissances sur :
@@ -19,7 +21,9 @@ Le dénominateur commun de tous ces services est qu'ils présentent tous un flux
 
 ## Qu'est-ce que le projet Collection ? 🛠️
 
-La conception d'une collection de notre choix, pour recréer une expérience similaire à celle des services de streaming et de collection en ligne. J'ai pour ma part choisi mes albums de rap américain préférés sortis durant la décénnie 1990. Voici les albums sélectionnés pour cette collection :
+La conception d'une collection de notre choix, pour recréer une expérience similaire à celle des services de streaming et de collection en ligne. J'ai pour ma part choisi mes albums de rap américain préférés sortis durant la décénnie 1990.
+
+Voici les albums sélectionnés pour cette collection :
 
 1. **Chpt 2: World Domination - Three 6 Mafia**
 2. **Illmatic - Nas**
@@ -49,3 +53,5 @@ Pour chaque album, les informations suivantes seront recueillies et affichées :
 ## Conclusion 🎉
 
 En réalisant ce projet, j'ai cherché non seulement à célébrer la richesse et la diversité du hip-hop à travers une sélection personnelle d'albums marquants, mais aussi à renforcer nos compétences en développement web en créant une application web interactive et visuellement attrayante qui reflète les tendances actuelles de la technologie web.
+
+Vous pouvez consulter le produit final via cette url: https://qlexisp.github.io/collection/
