@@ -15,7 +15,7 @@ L'objectif est de créer une collection d'items.
 
 Surtout depuis le début de la pandémie de Covid, nous utilisons tous des services de streaming tels que Spotify, Netflix, Disney+, ou même Popcorn Time. Nous réservons nos vacances sur internet avec AirBnb, nous jouons à des jeux via des clients élaborés tels que Steam, nous nous soucions des critiques significatives sur Rotten Tomatoes ou IMDB, nous pouvons même acheter des NFT sur des plateformes en ligne comme nous le ferions dans une galerie d'art, et bien d'autres choses...
 
-Le dénominateur commun de tous ces services est qu'ils présentent tous un flux de contenu unifié, une collection d'une certaine sorte. Dans ce défi, nous allons diviser le travail en deux parties pour essayer de reproduire cela.
+Le dénominateur commun de tous ces services est qu'ils présentent tous un flux de contenu unifié, une collection d'une certaine sorte.
 
 ## Qu'est-ce que le projet Collection ? 🛠️
 
